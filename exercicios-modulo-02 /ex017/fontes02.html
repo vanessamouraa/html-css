@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /* 
+            weight significa peso, ou valores da fonte
+            lighter - é o mais magrinho 
+            normal - é o normal
+            bold - é o gordinho como um negrito
+            bolder - é um negrito mais forte
+            
+            pode se usar também a numerica
+            100 - 900
+            100- seria a mais magrinha e assim por diante (seria a lighter)
+            
+            */
+            font-size: 1em;
+            font-weight: lighter ;
+            font-style: oblique;
+            text-decoration: underline; 
+               }
+               h1 {
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-size: 3em;
+                font-style: italic;
+
+                /* shorthand (dar uma mãozinha, facilitar o codigo)
+                shorthand font - ela vai condensar todas as configurações da fonte
+                mas tem que serguir essa ordem
+                font-style
+                font-weight
+                font-size
+                font-family
+                Ele vai simplificar o codigo do h1 que está acima
+                então vai ficar assim
+
+                font: italic bold 3em 'Times New Roman', Times, serif
+
+                */
+              }
+              h2 {
+                font: bold 2em 'Times New Roman', Times, serif;
+              }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam fuga voluptates ex nisi accusamus nesciunt veniam dolore aliquid quas consequatur hic repellat molestias, commodi vero aliquam libero asperiores facilis laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia earum, magni cupiditate itaque saepe vero incidunt laborum veritatis laboriosam dolores deserunt tempore? Maiores, voluptatibus vitae temporibus quam recusandae sapiente facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, rerum eligendi sit tenetur vero laudantium numquam, quos molestiae pariatur dolorum debitis enim ipsam vitae ad! Quo, assumenda veritatis. Maxime, animi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel hic est aliquam impedit in incidunt, neque debitis tempora laudantium quam magnam natus. Odit, dolor neque? Perferendis ratione eius laboriosam dolor?</p>
+    <h2>SubTítulo do Exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, harum dolores sapiente sunt assumenda earum. Libero iusto deleniti maxime ducimus optio, iste error ad cum hic, eligendi possimus a quae.</p>
+</body>
+</html>

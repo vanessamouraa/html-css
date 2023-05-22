@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* em HTML o id é igual a # em CSS
+   em HTML o Class é igual a . em CSS*/
+
+body {
+    background-color: rgb(239, 225, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(185, 73, 3) ;
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(185, 73, 3);
+    color: rgb(239, 225, 185);
+    border-radius: 5px;
+}
+
+h2 {
+    color: rgba(5, 56, 2, 0.799) ;
+
+}
+
+.intermediario {
+    color: rgb(66, 74, 132);
+    
+
+}
+
+.avancado {
+    color: rgb(84, 34, 131);
+}
+
+
+.destaque {
+    background-color: #fff;
+}
+
+.sublinhado {
+    font-weight: lighter;
+}
+
+
+

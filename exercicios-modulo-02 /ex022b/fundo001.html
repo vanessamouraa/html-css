@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body { /* assim ele fica o fundo na pagina inteira independente do tamanho*/
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.quadrado {
+            display: inline-block;
+            border: 2px solid rgb(73, 11, 131);
+            border-radius: 10px;
+            background-color: rgb(177, 137, 214);
+            width: 300px;
+            height: 300px;
+        }
+        div#q1 {
+
+        }
+        div#q2 {
+            background-image: linear-gradient(to bottom, rgb(164, 164, 236), blue);
+        }
+        div#q3 {
+            background-image: url(imagens/pattern003.png);
+        }
+        div#q4 {
+            background-image: url(imagens/pattern001.png);
+            /* éssa e muito pequena e assim ele nao redimensionou dentro do quadrado e foi criada varios quadardos para ocupar o quadrado inteiro*/
+        }
+        div#q5 {
+            background-image: url(imagens/wallpaper002.jpg);
+        }  /* éssa e muito grande e assim ele nao redimensionou dentro do quadrado*/
+
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+    <div class="quadrado" id="q4">
+
+    </div>
+    <div class="quadrado" id="q5">
+
+    </div>
+</body>
+</html>
